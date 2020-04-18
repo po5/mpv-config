@@ -1,0 +1,1 @@
+Use [mpv_manager](https://github.com/po5/mpv_manager) to retrieve shaders.
