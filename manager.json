@@ -16,7 +16,7 @@
   },
   {
     "git": "https://github.com/mpv-player/mpv",
-    "whitelist": "autocrop%.lua$|autoload%.lua$",
+    "whitelist": "autocrop%.lua$",
     "dest": "~~/scripts"
   },
   {
@@ -52,6 +52,11 @@
   {
     "git": "https://github.com/po5/mpv-scripts",
     "whitelist": "coverart%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "git": "https://gist.github.com/po5/ef141a3bdab121c174b5f32d26a83e80",
+    "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
   {
