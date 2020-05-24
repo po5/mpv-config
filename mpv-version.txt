@@ -1,0 +1,10 @@
+mpv 0.32.0-515-g685bd6a5f5 Copyright © 2000-2020 mpv/MPlayer/mplayer2 projects
+ built on Sun May 24 18:17:24 +08 2020
+FFmpeg library versions:
+   libavutil       56.48.100
+   libavcodec      58.87.101
+   libavformat     58.43.100
+   libswscale      5.6.101
+   libavfilter     7.83.100
+   libswresample   3.6.100
+FFmpeg version: git-2020-05-23-26b45096
