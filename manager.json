@@ -1,7 +1,7 @@
 [
   {
-    "git": "https://github.com/jgreco/mpv-scripts",
-    "whitelist": "fastforward%.lua$",
+    "git": "https://github.com/po5/mpv-scripts-1",
+    "whitelist": "fastforward%.lua$|gallery-dl_hook%.lua$",
     "dest": "~~/scripts"
   },
   {
