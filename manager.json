@@ -15,6 +15,11 @@
     "dest": "~~/scripts"
   },
   {
+    "git": "https://github.com/occivink/mpv-scripts",
+    "whitelist": "crop%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
     "git": "https://github.com/mpv-player/mpv",
     "whitelist": "autocrop%.lua$",
     "dest": "~~/scripts"
