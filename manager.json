@@ -20,6 +20,11 @@
     "dest": "~~/scripts"
   },
   {
+    "git": "https://github.com/ekisu/mpv-webm",
+    "whitelist": "webm%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
     "git": "https://github.com/mpv-player/mpv",
     "whitelist": "autocrop%.lua$",
     "dest": "~~/scripts"
@@ -38,12 +43,6 @@
     "git": "https://github.com/po5/uosc",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
-  },
-  {
-    "git": "https://github.com/po5/mpv-webm",
-    "whitelist": "webm%.lua$",
-    "dest": "~~/scripts",
-    "branch": "recursive-expansion"
   },
   {
     "git": "https://github.com/po5/trackselect",
