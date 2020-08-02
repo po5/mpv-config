@@ -20,11 +20,6 @@
     "dest": "~~/scripts"
   },
   {
-    "git": "https://github.com/CogentRedTester/mpv-coverart",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
     "git": "https://github.com/mpv-player/mpv",
     "whitelist": "autocrop%.lua$",
     "dest": "~~/scripts"
@@ -32,6 +27,11 @@
   {
     "git": "https://github.com/po5/mpv_sponsorblock",
     "whitelist": "%.py$|%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "git": "https://github.com/po5/mpv-coverart",
+    "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
   {
@@ -57,6 +57,11 @@
   },
   {
     "git": "https://github.com/po5/groupwatch_sync",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "git": "https://github.com/po5/remember_audio_geometry",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
