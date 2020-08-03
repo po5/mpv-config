@@ -65,6 +65,11 @@
     "dest": "~~/scripts"
   },
   {
+    "git": "https://github.com/po5/audio_background",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
     "git": "https://gist.github.com/po5/ef141a3bdab121c174b5f32d26a83e80",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
