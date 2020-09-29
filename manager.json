@@ -25,6 +25,11 @@
     "dest": "~~/scripts"
   },
   {
+    "git": "https://github.com/CogentRedTester/mpv-search-page",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
     "git": "https://github.com/mpv-player/mpv",
     "whitelist": "autocrop%.lua$",
     "dest": "~~/scripts"
@@ -61,6 +66,11 @@
   },
   {
     "git": "https://gist.github.com/po5/ef141a3bdab121c174b5f32d26a83e80",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "git": "https://gist.github.com/po5/36d6a3ea5451598eb6ddd3d1036fa9c1",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
