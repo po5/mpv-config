@@ -15,6 +15,11 @@
     "dest": "~~/scripts"
   },
   {
+    "git": "https://github.com/occivink/mpv-gallery-view",
+    "whitelist": "scripts",
+    "dest": "~~/scripts"
+  },
+  {
     "git": "https://github.com/po5/mpv-webm",
     "whitelist": "webm%.lua$",
     "dest": "~~/scripts"
@@ -71,6 +76,11 @@
   },
   {
     "git": "https://gist.github.com/po5/36d6a3ea5451598eb6ddd3d1036fa9c1",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "git": "https://gist.github.com/po5/9de69c90f9dc44427e58b1a2f9ad4ffd",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
