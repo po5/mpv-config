@@ -47,6 +47,7 @@
   {
     "git": "https://github.com/po5/uosc",
     "whitelist": "%.lua$",
+    "branch": "rice",
     "dest": "~~/scripts"
   },
   {
