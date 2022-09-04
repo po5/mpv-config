@@ -1,1 +1,1 @@
-Use [mpv_manager](https://github.com/po5/mpv_manager) to retrieve shaders.
+Use [mpv_manager](https://github.com/po5/mpv_manager) to retrieve shaders and delete this file.
