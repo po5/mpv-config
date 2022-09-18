@@ -37,7 +37,7 @@
   },
   {
     "title": "crop",
-    "git": "https://github.com/occivink/mpv-scripts",
+    "git": "https://github.com/po5/mpv-scripts-2",
     "whitelist": "crop%.lua$",
     "dest": "~~/scripts"
   },
@@ -104,7 +104,7 @@
     "dest": "~~/scripts"
   },
   {
-    "title": "sroll-list",
+    "title": "scroll-list",
     "git": "https://github.com/CogentRedTester/mpv-scroll-list",
     "whitelist": "scroll%-list%.lua$",
     "dest": "~~/script-modules"
