@@ -1,1 +1,1 @@
-Use [mpv_manager](https://github.com/po5/mpv_manager) to retrieve scripts and delete this file.
+Download manager.lua from [mpv_manager](https://github.com/po5/mpv_manager) and place it in this scripts folder. Then open MPV and press ctrl+m to fetch or update scripts. Delete this readme afterwards.
