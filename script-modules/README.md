@@ -1,1 +1,0 @@
-Use [mpv_manager](https://github.com/po5/mpv_manager) to retrieve scripts and delete this file.

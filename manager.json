@@ -1,27 +1,9 @@
 [
   {
-    "title": "audio_background",
-    "git": "https://github.com/po5/audio_background",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "autocrop",
-    "git": "https://github.com/mpv-player/mpv",
-    "whitelist": "autocrop%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "autoload",
-    "git": "https://gist.github.com/po5/ef141a3bdab121c174b5f32d26a83e80",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "boopsub",
-    "git": "https://gist.github.com/po5/4f784dfea1ba488ca05d8a699cc8d7ca",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
+    "title": "autocrop,autoload",
+    "git":"https://github.com/mpv-player/mpv",
+    "whitelist":"autocrop%.lua$|autoload%.lua$",
+    "dest":"~~/scripts"
   },
   {
     "title": "chapterskip",
@@ -30,8 +12,15 @@
     "dest": "~~/scripts"
   },
   {
+    "title": "celebi",
+    "git": "https://github.com/po5/celebi",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
     "title": "coverart",
-    "git": "https://github.com/CogentRedTester/mpv-coverart",
+    "git": "https://github.com/po5/mpv-coverart",
+    "branch": "any-image-fallback",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
@@ -42,42 +31,11 @@
     "dest": "~~/scripts"
   },
   {
-    "title": "dvd-browser",
-    "git": "https://github.com/CogentRedTester/mpv-dvd-browser",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "evabind",
-    "git": "https://gist.github.com/po5/578faae946c4628af072dbbdff4b74c0",
-    "whitelist": "%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
     "title": "evafast",
     "git": "https://github.com/po5/evafast",
+    "branch": "rewrite",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
-  },
-  {
-    "title": "gallery-dl",
-    "git": "https://github.com/po5/mpv-scripts-1",
-    "whitelist": "gallery%-dl_hook%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "gallery-view",
-    "git": "https://github.com/occivink/mpv-gallery-view",
-    "whitelist": "scripts",
-    "dest": "~~/scripts",
-    "flatten_folders": true
-  },
-  {
-    "title": "gallery-view",
-    "git": "https://github.com/occivink/mpv-gallery-view",
-    "whitelist": "script%-modules",
-    "dest": "~~/script-modules",
-    "flatten_folders": true
   },
   {
     "title": "groupwatch_sync",
@@ -92,32 +50,26 @@
     "dest": "~~/scripts"
   },
   {
-    "title": "persist-properties",
-    "git": "https://github.com/d87/mpv-persist-properties",
+    "title": "memo",
+    "git": "https://github.com/po5/memo",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
   {
-    "title": "quality-menu",
-    "git": "https://github.com/christoph-heinrich/mpv-quality-menu",
-    "whitelist": "quality%-menu%.lua$",
-    "dest": "~~/scripts"
-  },
-  {
-    "title": "scroll-list",
-    "git": "https://github.com/CogentRedTester/mpv-scroll-list",
-    "whitelist": "scroll%-list%.lua$",
-    "dest": "~~/script-modules"
-  },
-  {
-    "title": "sponsorblock",
-    "git": "https://github.com/po5/mpv_sponsorblock",
-    "whitelist": "%.py$|%.lua$",
+    "title": "pointer-event",
+    "git": "https://github.com/christoph-heinrich/mpv-pointer-event",
+    "whitelist": "pointer%-event%.lua$",
     "dest": "~~/scripts"
   },
   {
     "title": "sub-seek-two",
     "git": "https://gist.github.com/po5/9de69c90f9dc44427e58b1a2f9ad4ffd",
+    "whitelist": "%.lua$",
+    "dest": "~~/scripts"
+  },
+  {
+    "title": "thumbfast",
+    "git": "https://github.com/po5/thumbfast",
     "whitelist": "%.lua$",
     "dest": "~~/scripts"
   },
@@ -131,8 +83,15 @@
     "title": "uosc",
     "git": "https://github.com/tomasklaen/uosc",
     "branch": "main",
-    "whitelist": "scripts",
-    "dest": "~~/scripts"
+    "whitelist": "fonts",
+    "dest": "~~/fonts"
+  },
+  {
+    "title": "uosc",
+    "git": "https://github.com/tomasklaen/uosc",
+    "branch": "main",
+    "whitelist": "scripts/uosc",
+    "dest": "~~/scripts/uosc"
   },
   {
     "title": "webm",
@@ -152,15 +111,16 @@
     "dest": "~~/shaders"
   },
   {
-    "title": "SSimDownscaler",
-    "git": "https://gist.github.com/igv/36508af3ffc84410fe39761d6969be10",
-    "whitelist": "%.glsl$",
+    "title": "PixelClipper",
+    "git": "https://github.com/Artoriuz/glsl-pixel-clipper",
+    "branch": "main",
+    "whitelist": "pixelclipper_downscaling%.glsl$",
     "dest": "~~/shaders"
   },
   {
-    "title": "SSimSuperRes",
-    "git": "https://gist.github.com/igv/2364ffa6e81540f29cb7ab4c9bc05b6b",
-    "whitelist": "%.glsl$",
+    "title": "ravu",
+    "git": "https://github.com/bjin/mpv-prescalers",
+    "whitelist": "compute/ravu%-zoom%-ar%-r3%.hook$",
     "dest": "~~/shaders"
   }
 ]

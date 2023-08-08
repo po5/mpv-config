@@ -1,10 +1,11 @@
-mpv 0.34.0-447-g1800891a1d Copyright © 2000-2022 mpv/MPlayer/mplayer2 projects
+mpv 0.36.0-32-g3bdf702b1d Copyright © 2000-2023 mpv/MPlayer/mplayer2 projects
  built on UNKNOWN
+libplacebo version: v6.292.0-38-gfcba744b
+FFmpeg version: N-111652-gbf9f6a5e55
 FFmpeg library versions:
-   libavutil       57.34.100
-   libavcodec      59.42.103
-   libavformat     59.30.100
-   libswscale      6.8.104
-   libavfilter     8.46.103
-   libswresample   4.9.100
-FFmpeg version: N-107968-ge4ac156b7c
+   libavutil       58.14.100
+   libavcodec      60.22.100
+   libavformat     60.10.100
+   libswscale      7.3.100
+   libavfilter     9.10.100
+   libswresample   4.11.100
